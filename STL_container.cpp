@@ -5,7 +5,7 @@
 #include <map>
 
 int main() {
-    // 1. vector ¿¹Á¦ (µ¿Àû ¹è¿­)
+    // 1. vector ì˜ˆì œ (ë™ì  ë°°ì—´)
     std::vector<int> vec = { 1, 2, 3, 4, 5 };
     std::cout << "Vector elements: ";
     for (int v : vec) {
@@ -13,7 +13,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    // 2. list ¿¹Á¦ (ÀÌÁß ¿¬°á ¸®½ºÆ®)
+    // 2. list ì˜ˆì œ (ì´ì¤‘ ì—°ê²° ë¦¬ìŠ¤íŠ¸)
     std::list<int> lst = { 10, 20, 30, 40, 50 };
     std::cout << "List elements: ";
     for (int l : lst) {
@@ -21,7 +21,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    // 3. set ¿¹Á¦ (Áßº¹µÇÁö ¾Ê´Â Á¤·ÄµÈ ÁıÇÕ)
+    // 3. set ì˜ˆì œ (ì¤‘ë³µë˜ì§€ ì•ŠëŠ” ì •ë ¬ëœ ì§‘í•©)
     std::set<int> mySet = { 100, 200, 300, 100, 400 };
     std::cout << "Set elements (duplicates removed): ";
     for (int s : mySet) {
@@ -29,7 +29,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    // 4. map ¿¹Á¦ (Å°-°ª ½ÖÀÇ ¿¬°ü ÄÁÅ×ÀÌ³Ê)
+    // 4. map ì˜ˆì œ (í‚¤-ê°’ ìŒì˜ ì—°ê´€ ì»¨í…Œì´ë„ˆ)
     std::map<std::string, int> myMap = { {"apple", 1}, {"banana", 2}, {"cherry", 3} };
     std::cout << "Map elements (key-value pairs):" << std::endl;
     for (const auto& pair : myMap) {
